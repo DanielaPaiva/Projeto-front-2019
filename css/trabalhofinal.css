@@ -1,0 +1,107 @@
+
+*{margin:0 px;
+padding:0px}
+body{background-position:center; text-align:center;background-color:white}
+#cabeçalho{margin:auto;width:1000px}
+
+/*dcd1c0 creme
+736a52 verde */
+
+
+/* header */
+header{background-color:pink}
+LI{margin-right:20px;margin-bottom: 15px; font-size:20px;  background-color: rgba(3,2,6,0.3); padding:15px; border-bottom:2px solid transparent; display:inline-block;}
+a{text-decoration: none;color:#f3ede8;padding: 15px 25px 0 0;text-align: center;}
+a:hover{color: rgba(0, 0, 0, .33); text-align:center}
+
+
+/* fotos */
+.ft{width:950px;margin-right:0px; padding-top:25px; text-align:center; display:block}
+.brownie{width:350px;height:450px; padding-top:25px;float:left}
+/* .produtos{width:30px;height:10px} */
+/* .produtos div{float: left;text-align:center;} */
+.foto img{width:300px;height:400px;float: left;text-align:center; margin:14px}
+.pao img{width:400px;height:350px;padding-top:80px; margin-left:15px; float:left }
+.pao {float:left}
+.slide{width:800px}
+.logo {width:100px;padding-top:25px;margin-right:800px; margin-top:10px }
+.icones{width:30px; height:30px;padding:10px}
+.icones:hover{background-color:#736a52 ;padding:11px; text-align:center;}
+nav{ background-color:#ebe1bd;background-position:fixed;display: inline;}
+
+main{float:left}
+
+/* endereço */
+.endereço{ color:#736a52;float:right;font-family: 'Bubbler One', sans-serif; clear:left; margin-right:200px;margin-top: 40px;}
+h2{font-family:'Cabin Sketch', cursive;}
+
+/* textos */
+.txt{display:center;font-family: 'Bubbler One', sans-serif;text-align:justify; margin-top:110px; font-size:20px;margin-left:400px;}
+.letras{display:center;font-family: 'Bubbler One', sans-serif;text-align:justify; margin-top:150px; font-size:20px;margin-left:435px; width:545px}
+.hmm{width:975px;
+	height:550px;
+	background-color:#ebe1bd;
+	padding:50px;
+	box-sizing:border-box;
+
+}
+
+footer{margin-top:950px; background-color:pink;clear:left;height: 585px;}
+iframe{margin-right:600px;margin-top:50px}
+
+/* formulario */
+form{margin:0 auto;
+    width: 500px;
+    padding:1px;
+	position:right;
+	margin-right:50px;
+	margin-top:-250px
+	
+    /* border: 1px solid #CCC; */
+    /* border-radius: 1em; */
+	/* clear:left; */
+	}
+form div + div{margin-top: 10px;}
+.titulo{
+    font-family:'Cabin Sketch', cursive;color:#736a52;
+}
+
+label {
+display: inline-block;
+width: 500px;
+text-align: left;
+color:#736a52;
+font-family:'Cabin Sketch', cursive;}
+
+input, textarea {
+    font: arial;
+    width: 500px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;}
+
+input, textarea {
+ border-color:#736a52; background-color:#736a52;height:25px}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;}
+	
+	.button {
+    /* Para posicionar os botões para a mesma posição dos campos de texto */
+    padding-left: 90px; /* mesmo tamanho que os elementos do tipo label */
+}
+button {
+    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
+    margin-left:center;
+	color:white; background-color:#736a52
+}
+.copy{
+    margin-top: 180px;text-align: center;
+}
+
+/* link de cosulta */
+/* https://developer.mozilla.org/pt-BR/docs/Web/Guide/HTML/Forms/Meu_primeiro_formulario_HTML */
+
+
